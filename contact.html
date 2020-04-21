@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MBV Contact</title>
+        <style>
+
+            .form-group {
+              margin-left: auto;
+              margin-right: auto;
+              width: 300px;
+              text-align: center;
+            }
+
+            .google-map {
+              margin-left: 5%;
+              margin-bottom: 50px;
+              width: 45%;
+              }
+
+            .google-map iframe {
+              width: 100%
+            }
+
+            .contact-form {
+              width: 42%;
+              margin-top: 100px;
+              margin-bottom: 100px;
+            }
+
+            .clearfix {
+              clear: both;
+            }
+
+            @media (min-width: 1000px) {
+                .google-map,.contact-form {
+                    float: left;
+                  }
+                }
+
+            @media (max-width: 999px) {
+                .google-map,.contact-form {
+                  float: none;
+                  margin-left: auto;
+                  margin-right: auto;
+                }
+              }
+
+            @media (max-width: 999px) {
+                .google-map {
+                  width: 70%;
+                  }
+              }
+
+            @media (max-width: 999px) {
+                .contact-form {
+                  width: 70%;
+                  }
+              }
+
+            table {
+                border: 0px;
+                border-collapse: collapse;
+                width: auto;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                margin-bottom: 50px;
+                }
+
+            th, td {
+                border: 0px;
+                padding: 5px;
+                text-align: left;
+                margin-left: 50px;
+            }
+
+        /*    iframe {
+              margin: 50px;
+              padding: 50px;
+              float: right;
+            } */
+
+        </style>
+        <link rel="stylesheet" href="style/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+
+      <div class="nav-principal">
+          <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nav.html">Series</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+        <div class="title">
+          <h2>Contact</h2>
+        </div>
+
+        <table>
+            <tr>
+                <th>email</th>
+                <td><a href="mailto:mariabeatriz.vilhena@gmail.com" target="_blank">mariabeatriz.vilhena@gmail.com</a></td>
+            </tr>
+            <tr>
+                <th>phone</th>
+                <td>+351 918 086 791</td>
+            </tr>
+            <tr>
+                <th>social</th>
+                <td><a href="https://www.linkedin.com/in/mbvilhena/" target="_blank">LinkedIn</a></td>
+            </tr>
+        </table>
+
+        <div class="google-map"
+          <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d50989.253447414216!2d-9.12215811621092!3d38.69834624099189!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spt!4v1587412198508!5m2!1sen!2spt"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" padding="100px"></iframe>
+          </p>
+        </div>
+
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="inputName">Name</label>
+              <input type="text" class="form-control" id="inputName">
+            </div>
+            <button type="submit" class="btn btn-light mx-auto d-block">Contact Me</button>
+          </form>
+        </div>
+
+        <span class="clearfix"></span>
+
+    </body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maria Beatriz de Vilhena</title>
+        <style>
+
+              .container > div {
+                margin: 10px;
+                margin-bottom: 50px;
+                padding: 10px;
+                width: 350px;
+                margin-top: 100px;
+                 }
+
+              .container {
+                display: flex;
+                align-items: center;
+                }
+
+               .img-container {
+                 position: relative;
+                 display: inline-block;
+                 opacity: 0.9;
+                 }
+
+                .img-container img {
+                  display: block;
+                  filter: saturate(0);
+                }
+
+                .img-container h2 {
+                  position: absolute;
+                  top: 50%;
+                  left: 0;
+                  right: 0;
+                  transform: translate(0, -50%);
+                  text-align: center;
+                  visibility: hidden;
+                  font-weight: bold;
+                  color: #fff;
+                  font-size: 20px;
+                }
+
+                .img-container:hover img{
+                  opacity: 0.3;
+                  filter: saturate(0.8);
+                  }
+
+                .img-container:hover h2 {
+                  visibility: visible;
+                }
+
+        </style>
+        <link rel="stylesheet" href="style/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+      <div class="nav-principal">
+          <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nav.html">Series</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+          <div class="container">
+
+              <div>
+                <span class="img-container">
+                  <a href="iran.html">
+                      <img src="photos/DSCF6841-3.jpg" alt="01" width="100%">
+                    </a>
+                    <h2>Iran</h2>
+                  </span>
+              </div>
+
+              <div>
+                <span class="img-container">
+                  <a href="analogue.html">
+                      <img src="photos/02_.jpg" alt="02" width="100%">
+                    </a>
+                    <h2>Analogue</h2>
+                  </span>
+              </div>
+
+              <div>
+                <span class="img-container">
+                  <a href="capeverde.html">
+                      <img src="photos/bb.jpg" alt="03" width="100%">
+                    </a>
+                    <h2>Cape Verde</h2>
+                  </span>
+              </div>
+
+          </div>
+
+    </body>
+</html>

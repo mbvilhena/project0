@@ -1,0 +1,77 @@
+h1, h2 {
+  letter-spacing: 1.2px;
+  font-style: normal;
+  font: 100% helvetica, sans-serif; }
+
+h1 {
+  color: #282828;
+  text-align: center; }
+
+h2 {
+  color: #282828;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal; }
+
+p3 {
+  color: #787878;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-style: italic; }
+
+li {
+  color: #787878;
+  font-size: 14px;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-style: normal; }
+
+.nav.justify-content-center li a {
+  color: #787878; }
+
+.nav.justify-content-center:active {
+  text-decoration: underline; }
+
+.title {
+  text-align: center;
+  margin-top: 50px; }
+
+.nav-principal {
+  margin-top: 20px; }
+
+.nav-secundaria {
+  margin-top: 20px;
+  /*  margin-bottom: 50px;*/ }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+
+td a {
+  color: #282828; }
+
+td a:active {
+  color: #282828; }
+
+td a:hover {
+  color: #282828;
+  text-decoration: underline; }
+
+td a:visited {
+  color: #282828; }
+
+td a:visited:hover {
+  color: #282828;
+  text-decoration: underline; }
+
+::selection {
+  background-color: #000;
+  color: #F0E50E; }
+
+/*# sourceMappingURL=styles.css.map */

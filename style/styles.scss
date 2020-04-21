@@ -1,0 +1,90 @@
+$color: rgb(40,40,40);
+$color2: rgb(120,120,120);
+$color3: #F0E50E;
+
+h1, h2, {
+  letter-spacing: 1.2px;
+  font-style: normal;
+  font: 100% helvetica, sans-serif;
+}
+
+h1 {
+    color: $color;
+    text-align: center;
+}
+
+h2 {
+    color: $color;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+}
+
+p3 {
+  color: $color2;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-style: italic;
+}
+
+li {
+  color: $color2;
+  font-size: 14px;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+.nav.justify-content-center li a {
+  color: $color2;
+}
+
+.nav.justify-content-center:active {
+  text-decoration:underline ;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.nav-principal {
+    margin-top: 20px;
+    }
+.nav-secundaria {
+  margin-top: 20px;
+/*  margin-bottom: 50px;*/
+}
+.container {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+    }
+
+    td a {
+      color: $color;
+    }
+    td a:active {
+      color: $color;
+    }
+    td a:hover {
+      color: $color;
+      text-decoration: underline;
+    }
+    td a:visited {
+      color: $color;
+    }
+    td a:visited:hover {
+      color: $color;
+      text-decoration: underline;
+    }
+
+    ::selection {
+      background-color: #000;
+      color: $color3;
+    }
