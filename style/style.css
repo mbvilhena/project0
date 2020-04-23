@@ -32,7 +32,7 @@ li {
   color: #696969; }
 
 .nav-item:active, .nav-item:hover a {
-  text-decoration: underline; }
+  color: #000 !important; }
 
 .title {
   text-align: center;
