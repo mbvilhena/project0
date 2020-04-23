@@ -1,5 +1,5 @@
 $color: rgb(40,40,40);
-$color2: rgb(120,120,120);
+$color2: #696969;
 $color3: #F0E50E;
 $background: #F5F5F5;
 
@@ -49,8 +49,8 @@ li {
   color: $color2;
 }
 
-.nav.justify-content-center:active {
-  text-decoration:underline ;
+.nav-item:active, .nav-item:hover a {
+  text-decoration: underline;
 }
 
 .title {

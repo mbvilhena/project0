@@ -20,7 +20,7 @@ th, td {
   font-size: 15px !important; }
 
 li {
-  color: #787878;
+  color: #696969;
   font-style: normal;
   letter-spacing: 1px;
   font-size: 14px; }
@@ -29,9 +29,9 @@ li {
     font-style: italic; }
 
 .nav.justify-content-center li a {
-  color: #787878; }
+  color: #696969; }
 
-.nav.justify-content-center:active {
+.nav-item:active, .nav-item:hover a {
   text-decoration: underline; }
 
 .title {
