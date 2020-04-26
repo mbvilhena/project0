@@ -19,10 +19,12 @@ Your stylesheets must use at least one SCSS variable, at least one example of SC
 In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
 
 
-Maria Beatriz de Vilhena
+# Maria Beatriz de Vilhena
+
 Personal website - Photography Portfolio
 
-Structure
+# Structure
+
 index.html - home page
 nav.html - navigation page, submenu
 iran.html - photography gallery
@@ -33,8 +35,8 @@ contact.html - contact page with map and contact form (waiting for JavaScript)
 style folder - stylesheets
 
 
-Built With
+# Built With
 HTML/CSS/SASS/Bootstrap
 
-Author
+# Author
 Maria Beatriz de Vilhena
