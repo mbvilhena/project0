@@ -17,3 +17,24 @@ You must use Bootstrap 4 on your website, taking advantage of at least one Boots
 Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
 
 In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
+
+
+Maria Beatriz de Vilhena
+Personal website - Photography Portfolio
+
+Structure
+index.html - home page
+nav.html - navigation page, submenu
+iran.html - photography gallery
+analogue.html - photography gallery
+capeverde.html - photography gallery
+about.html - information about the author
+contact.html - contact page with map and contact form (waiting for JavaScript)
+style folder - stylesheets
+
+
+Built With
+HTML/CSS/SASS/Bootstrap
+
+Author
+Maria Beatriz de Vilhena
