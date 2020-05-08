@@ -3,6 +3,7 @@
 ## Maria Beatriz de Vilhena
 
 Personal website - Photography Portfolio
+Online at https://mbvilhena.github.io/project0/
 
 ## Structure
 
@@ -13,7 +14,7 @@ Personal website - Photography Portfolio
 - capeverde.html: photography gallery built with flexbox
 - about.html: information about the author (unordered list format)
 - contact.html: contact page with info (table format), map, and contact form (waiting for JavaScript)
-- style folder: stylesheets 
+- style folder: stylesheets
 
 ## Built With
 HTML/CSS/SASS/Bootstrap
