@@ -1,9 +1,8 @@
-# Project 0
+# CS50'W /Project 0
 
 ## Maria Beatriz de Vilhena
 
-Personal website - Photography Portfolio
-
+**Personal website - Photography Portfolio** <br>
 Online at https://mbvilhena.github.io/project0/
 
 ## Structure
