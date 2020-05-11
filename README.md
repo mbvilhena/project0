@@ -3,6 +3,7 @@
 ## Maria Beatriz de Vilhena
 
 Personal website - Photography Portfolio
+
 Online at https://mbvilhena.github.io/project0/
 
 ## Structure
