@@ -18,6 +18,7 @@ Online at https://mbvilhena.github.io/project0/
 
 ## Built With
 HTML/CSS/SASS/Bootstrap
+(walkthrough video at https://www.youtube.com/watch?v=uIvV4Vd862k)
 
 ## Author
 Maria Beatriz de Vilhena
