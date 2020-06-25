@@ -17,7 +17,7 @@ Online at https://mbvilhena.github.io/project0/
 - **style folder:** stylesheets
 
 ## Built With
-HTML/CSS/SASS/Bootstrap
+HTML/CSS/SASS/Bootstrap <br>
 (walkthrough video at https://www.youtube.com/watch?v=uIvV4Vd862k)
 
 ## Author
